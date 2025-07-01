@@ -1,0 +1,19 @@
+Package: langtropy
+Title: Information-Theoretic Measures for Linguistic Analysis
+Version: 0.1.0
+Authors@R: 
+    person("Vladimir", "Buskin", , "VBuskin@ku.de", role = c("aut", "cre"),
+           comment = c(ORCID = "orcid.org/0009-0005-5824-1012"))
+Description: Provides functions to calculate information-theoretic measures 
+    commonly used in linguistic analysis, including surprisal, entropy, 
+    mutual information, and other measures of information content in 
+    linguistic data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
